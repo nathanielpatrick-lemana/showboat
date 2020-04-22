@@ -15,6 +15,7 @@ Show :: Show(std::string title, int watched, int epTotal, int rate, std::string 
 void Show::setTitle(std::string newTitle){
     showName = newTitle;
 }
+
 std::string Show::getTitle(){
     return showName;
 }

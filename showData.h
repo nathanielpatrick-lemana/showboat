@@ -8,15 +8,15 @@
 
 class Show{
 protected:
-    static std::string showName;
+    std::string showName;
     int episodesWatched;
     int episodesTotal;
     int showRating;
     std::string showGenre;
 public:
-    Show(std::string showTitle = "null", int episodesWatched = 0, int episodesTotal = 0, int showRating = 0, std::string showGenre = "null");
+    Show(std::string showName = "null", int episodesWatched = 0, int episodesTotal = 0, int showRating = 0, std::string showGenre = "null");
     void setTitle(std::string newTitle);
-    static std::string getTitle();
+    std::string getTitle();
     void setWatched(int newWatched);
     int getWatched();
     void setEpisodes(int newEpisodes);
