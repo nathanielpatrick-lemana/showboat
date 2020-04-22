@@ -8,7 +8,7 @@
 
 class Show{
 protected:
-    std::string showName;
+    static std::string showName;
     int episodesWatched;
     int episodesTotal;
     int showRating;
@@ -16,7 +16,7 @@ protected:
 public:
     Show(std::string showTitle = "null", int episodesWatched = 0, int episodesTotal = 0, int showRating = 0, std::string showGenre = "null");
     void setTitle(std::string newTitle);
-    std::string getTitle();
+    static std::string getTitle();
     void setWatched(int newWatched);
     int getWatched();
     void setEpisodes(int newEpisodes);
