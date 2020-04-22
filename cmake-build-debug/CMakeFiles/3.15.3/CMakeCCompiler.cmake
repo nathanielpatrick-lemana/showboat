@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "F:/Qt/Tools/mingw730_64/bin/gcc.exe")
+set(CMAKE_C_COMPILER "C:/Qt/Tools/mingw730_64/bin/gcc.exe")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "7.3.0")
@@ -17,11 +17,11 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "F:/Qt/Tools/mingw730_64/bin/ar.exe")
-set(CMAKE_C_COMPILER_AR "F:/Qt/Tools/mingw730_64/bin/gcc-ar.exe")
-set(CMAKE_RANLIB "F:/Qt/Tools/mingw730_64/bin/ranlib.exe")
-set(CMAKE_C_COMPILER_RANLIB "F:/Qt/Tools/mingw730_64/bin/gcc-ranlib.exe")
-set(CMAKE_LINKER "F:/Qt/Tools/mingw730_64/bin/ld.exe")
+set(CMAKE_AR "C:/Qt/Tools/mingw730_64/bin/ar.exe")
+set(CMAKE_C_COMPILER_AR "C:/Qt/Tools/mingw730_64/bin/gcc-ar.exe")
+set(CMAKE_RANLIB "C:/Qt/Tools/mingw730_64/bin/ranlib.exe")
+set(CMAKE_C_COMPILER_RANLIB "C:/Qt/Tools/mingw730_64/bin/gcc-ranlib.exe")
+set(CMAKE_LINKER "C:/Qt/Tools/mingw730_64/bin/ld.exe")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCC 1)
 set(CMAKE_C_COMPILER_LOADED 1)
@@ -70,7 +70,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "F:/Qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include;F:/Qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed;F:/Qt/Tools/mingw730_64/x86_64-w64-mingw32/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "C:/Qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include;C:/Qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed;C:/Qt/Tools/mingw730_64/x86_64-w64-mingw32/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "mingw32;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc;moldname;mingwex")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "F:/Qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0;F:/Qt/Tools/mingw730_64/lib/gcc;F:/Qt/Tools/mingw730_64/x86_64-w64-mingw32/lib;F:/Qt/Tools/mingw730_64/lib")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "C:/Qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0;C:/Qt/Tools/mingw730_64/lib/gcc;C:/Qt/Tools/mingw730_64/x86_64-w64-mingw32/lib;C:/Qt/Tools/mingw730_64/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

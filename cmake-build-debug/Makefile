@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = C:\Users\cardb\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5662.56\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = "F:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = C:\Users\cardb\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5662.56\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Projects\showboat
+CMAKE_SOURCE_DIR = "C:\Users\cardb\Desktop\CLion\Intro To Software\showboat"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Projects\showboat\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\cardb\Desktop\CLion\Intro To Software\showboat\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = E:\Projects\showboat\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"F:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	C:\Users\cardb\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5662.56\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"F:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\cardb\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5662.56\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\showboat\cmake-build-debug\CMakeFiles E:\Projects\showboat\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\cardb\Desktop\CLion\Intro To Software\showboat\cmake-build-debug\CMakeFiles" "C:\Users\cardb\Desktop\CLion\Intro To Software\showboat\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\showboat\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\cardb\Desktop\CLion\Intro To Software\showboat\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -121,6 +121,19 @@ showboat: cmake_check_build_system
 showboat/fast:
 	$(MAKE) -f CMakeFiles\showboat.dir\build.make CMakeFiles/showboat.dir/build
 .PHONY : showboat/fast
+
+#=============================================================================
+# Target rules for targets named showboat_autogen
+
+# Build rule for target.
+showboat_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 showboat_autogen
+.PHONY : showboat_autogen
+
+# fast build rule for target.
+showboat_autogen/fast:
+	$(MAKE) -f CMakeFiles\showboat_autogen.dir\build.make CMakeFiles/showboat_autogen.dir/build
+.PHONY : showboat_autogen/fast
 
 main.obj: main.cpp.obj
 
@@ -176,6 +189,33 @@ showData.cpp.s:
 	$(MAKE) -f CMakeFiles\showboat.dir\build.make CMakeFiles/showboat.dir/showData.cpp.s
 .PHONY : showData.cpp.s
 
+showboat_autogen/mocs_compilation.obj: showboat_autogen/mocs_compilation.cpp.obj
+
+.PHONY : showboat_autogen/mocs_compilation.obj
+
+# target to build an object file
+showboat_autogen/mocs_compilation.cpp.obj:
+	$(MAKE) -f CMakeFiles\showboat.dir\build.make CMakeFiles/showboat.dir/showboat_autogen/mocs_compilation.cpp.obj
+.PHONY : showboat_autogen/mocs_compilation.cpp.obj
+
+showboat_autogen/mocs_compilation.i: showboat_autogen/mocs_compilation.cpp.i
+
+.PHONY : showboat_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+showboat_autogen/mocs_compilation.cpp.i:
+	$(MAKE) -f CMakeFiles\showboat.dir\build.make CMakeFiles/showboat.dir/showboat_autogen/mocs_compilation.cpp.i
+.PHONY : showboat_autogen/mocs_compilation.cpp.i
+
+showboat_autogen/mocs_compilation.s: showboat_autogen/mocs_compilation.cpp.s
+
+.PHONY : showboat_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+showboat_autogen/mocs_compilation.cpp.s:
+	$(MAKE) -f CMakeFiles\showboat.dir\build.make CMakeFiles/showboat.dir/showboat_autogen/mocs_compilation.cpp.s
+.PHONY : showboat_autogen/mocs_compilation.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -185,12 +225,16 @@ help:
 	@echo ... showboat
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... showboat_autogen
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
 	@echo ... showData.obj
 	@echo ... showData.i
 	@echo ... showData.s
+	@echo ... showboat_autogen/mocs_compilation.obj
+	@echo ... showboat_autogen/mocs_compilation.i
+	@echo ... showboat_autogen/mocs_compilation.s
 .PHONY : help
 
 
