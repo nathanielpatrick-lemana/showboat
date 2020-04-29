@@ -55,11 +55,6 @@ void printShowDetails(std::string fileTitle){
     std::cout << std::ifstream("shows/" + fileTitle + ".txt").rdbuf();
 }
 
-void createNewEntry(Show workingShow){
-
-}
-
-
 void createNewEntry(Show workingShow) {
     std::string showTitle = workingShow.getTitle();
     int showEpisodes = workingShow.getEpisodes();
@@ -72,14 +67,14 @@ void createNewEntry(Show workingShow) {
     currentShow.close();
 }
 
-void updateExistingEntry(Show workingShow) {
-    std::string showTitle = workingShow.getTitle();
-    int showEpisodes = workingShow.getEpisodes();
+void updateExistingEntry(Show updatedShow) {
+    std::string showTitle = updatedShow.getTitle();
+    int showEpisodes = updatedShow.getEpisodes();
     std::ofstream currentShow;
     currentShow.open("shows/" + showTitle + ".txt");
     currentShow << "Show title: " << showTitle << "\n"
         << "Number of episodes: " << showEpisodes << "\n"
-        << "Number of episodes watched so far: " << workingShow.getWatched() << "\n"
-        << "User rating (out of 10): " << workingShow.getRating() << "\n";
+        << "Number of episodes watched so far: " << updatedShow.getWatched() << "\n"
+        << "User rating (out of 10): " << updatedShow.getRating() << "\n";
     currentShow.close();
 }
