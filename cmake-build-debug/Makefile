@@ -176,6 +176,33 @@ showData.cpp.s:
 	$(MAKE) -f CMakeFiles\showboat.dir\build.make CMakeFiles/showboat.dir/showData.cpp.s
 .PHONY : showData.cpp.s
 
+sqlForShows.obj: sqlForShows.cpp.obj
+
+.PHONY : sqlForShows.obj
+
+# target to build an object file
+sqlForShows.cpp.obj:
+	$(MAKE) -f CMakeFiles\showboat.dir\build.make CMakeFiles/showboat.dir/sqlForShows.cpp.obj
+.PHONY : sqlForShows.cpp.obj
+
+sqlForShows.i: sqlForShows.cpp.i
+
+.PHONY : sqlForShows.i
+
+# target to preprocess a source file
+sqlForShows.cpp.i:
+	$(MAKE) -f CMakeFiles\showboat.dir\build.make CMakeFiles/showboat.dir/sqlForShows.cpp.i
+.PHONY : sqlForShows.cpp.i
+
+sqlForShows.s: sqlForShows.cpp.s
+
+.PHONY : sqlForShows.s
+
+# target to generate assembly for a file
+sqlForShows.cpp.s:
+	$(MAKE) -f CMakeFiles\showboat.dir\build.make CMakeFiles/showboat.dir/sqlForShows.cpp.s
+.PHONY : sqlForShows.cpp.s
+
 sqlite3.obj: sqlite3.c.obj
 
 .PHONY : sqlite3.obj
@@ -218,6 +245,9 @@ help:
 	@echo ... showData.obj
 	@echo ... showData.i
 	@echo ... showData.s
+	@echo ... sqlForShows.obj
+	@echo ... sqlForShows.i
+	@echo ... sqlForShows.s
 	@echo ... sqlite3.obj
 	@echo ... sqlite3.i
 	@echo ... sqlite3.s

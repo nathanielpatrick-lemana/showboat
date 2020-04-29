@@ -4,7 +4,7 @@
 
 #include "showData.h"
 
-Show :: Show(std::string title, int watched, int epTotal, int rate, std::string showGenre){
+Show :: Show(std::string title, int watched, int epTotal, double rate, std::string showGenre){
     showName = title;
     episodesWatched = watched;
     episodesTotal = epTotal;
@@ -36,11 +36,11 @@ int Show::getEpisodes(){
     return episodesTotal;
 }
 
-void Show::setRating(int newRating){
+void Show::setRating(double newRating){
     showRating = newRating;
 }
 
-int Show::getRating(){
+double Show::getRating(){
     return showRating;
 }
 

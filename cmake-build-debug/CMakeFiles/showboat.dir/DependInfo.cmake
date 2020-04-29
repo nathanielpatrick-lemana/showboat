@@ -15,6 +15,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 set(CMAKE_DEPENDS_CHECK_CXX
   "E:/Projects/showboat/main.cpp" "E:/Projects/showboat/cmake-build-debug/CMakeFiles/showboat.dir/main.cpp.obj"
   "E:/Projects/showboat/showData.cpp" "E:/Projects/showboat/cmake-build-debug/CMakeFiles/showboat.dir/showData.cpp.obj"
+  "E:/Projects/showboat/sqlForShows.cpp" "E:/Projects/showboat/cmake-build-debug/CMakeFiles/showboat.dir/sqlForShows.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

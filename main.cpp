@@ -3,6 +3,7 @@
 #include <string>
 #include "sqlite3.h"
 #include "showData.h"
+#include "sqlForShows.h"
 
 char addOrMod;
 
@@ -12,58 +13,13 @@ void printShowDetails(std::string fileTitle);
 void createNewEntry(Show workingShow);
 void updateExistingEntry(Show workingShow);
 */
-static int callback(void *NotUsed, int argc, char **argv, char **azColName);
 
 int main() {
     std::cout << "Welcome to Showboat.\n";
-    sqlite3 *db;
-    char *zErrMsg = nullptr;
-    int rc;
-    const char *sql;
-    rc = sqlite3_open("shows.db", &db);
-    if(rc) {
-        std::cerr << "Failed open database: " << sqlite3_errmsg(db)
-                  << std::endl;
-        return (0);
-    }
-    else {
-        std::cerr << "Database successfully opened" << std::endl;
-    }
-    sql = "select * from shows;";
-          //"values('Konosuba', 13, 7, 5); ";
-    rc = sqlite3_exec(db, sql, callback, nullptr, &zErrMsg);
-    if(rc != SQLITE_OK) {
-        std::cerr << "SQL error: " << zErrMsg << std::endl;
-        sqlite3_free(zErrMsg);
-    }
-    else {
-        std::cerr << "Records created successfully" << std::endl;
-    }
-    sqlite3_close(db);
-    return 0;
-}
+    Show newShow("test2", 15, 26, 5.0);
+    addShow(newShow);
 
-static int callback(void *data, int argc, char **argv, char **azColName)
-{
-    fprintf(stderr, "\nCallback function call: ", &data);
-    for(auto i = 0; i < argc; i++) {
-        printf("%s: %s\n", azColName[i], argv[i] ? argv[i] : "NULL");
-    }
-    return 0;
 }
-
-/*
-static int callback(void *NotUsed, int argc, char **argv, char **azColName)
-{
-    int i;
-    for(i = 0; i < argc; i++) {
-        std::cerr << azColName[i] << argv[i] << argv[i] << "NULL";
-    }
-    std::cout << std::endl;
-    return 0;
-}
- */
-
 
 /*
 void addShow(){

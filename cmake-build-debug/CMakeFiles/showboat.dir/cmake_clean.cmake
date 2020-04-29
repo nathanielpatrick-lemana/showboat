@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/showboat.dir/main.cpp.obj"
   "CMakeFiles/showboat.dir/showData.cpp.obj"
+  "CMakeFiles/showboat.dir/sqlForShows.cpp.obj"
   "CMakeFiles/showboat.dir/sqlite3.c.obj"
   "libshowboat.dll.a"
   "showboat.exe"
