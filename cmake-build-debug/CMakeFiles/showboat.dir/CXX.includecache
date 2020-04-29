@@ -13,10 +13,16 @@ fstream
 -
 string
 -
+sqlite3.h
+E:/Projects/showboat/sqlite3.h
 showData.h
 E:/Projects/showboat/showData.h
 
 E:/Projects/showboat/showData.h
 string
+-
+
+E:/Projects/showboat/sqlite3.h
+stdarg.h
 -
 

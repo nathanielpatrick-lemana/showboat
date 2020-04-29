@@ -89,6 +89,12 @@
 		<Unit filename="E:/Projects/showboat/showData.h">
 			<Option target="showboat"/>
 		</Unit>
+		<Unit filename="E:/Projects/showboat/sqlite3.c">
+			<Option target="showboat"/>
+		</Unit>
+		<Unit filename="E:/Projects/showboat/sqlite3.h">
+			<Option target="showboat"/>
+		</Unit>
 		<Unit filename="E:/Projects/showboat/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
