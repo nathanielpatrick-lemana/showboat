@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
+  "../ShowboatResources.qrc"
   "CMakeFiles/3.15.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeRCCompiler.cmake"
@@ -21,6 +22,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "F:/Program Files/JetBrains/CLion 2019.3.5/bin/cmake/win/share/cmake-3.15/Modules/CMakeGenericSystem.cmake"
   "F:/Program Files/JetBrains/CLion 2019.3.5/bin/cmake/win/share/cmake-3.15/Modules/CMakeInitializeConfigs.cmake"
   "F:/Program Files/JetBrains/CLion 2019.3.5/bin/cmake/win/share/cmake-3.15/Modules/CMakeLanguageInformation.cmake"
+  "F:/Program Files/JetBrains/CLion 2019.3.5/bin/cmake/win/share/cmake-3.15/Modules/CMakeParseArguments.cmake"
   "F:/Program Files/JetBrains/CLion 2019.3.5/bin/cmake/win/share/cmake-3.15/Modules/CMakeRCInformation.cmake"
   "F:/Program Files/JetBrains/CLion 2019.3.5/bin/cmake/win/share/cmake-3.15/Modules/CMakeSystemSpecificInformation.cmake"
   "F:/Program Files/JetBrains/CLion 2019.3.5/bin/cmake/win/share/cmake-3.15/Modules/CMakeSystemSpecificInitialize.cmake"
@@ -38,6 +40,45 @@ set(CMAKE_MAKEFILE_DEPENDS
   "F:/Program Files/JetBrains/CLion 2019.3.5/bin/cmake/win/share/cmake-3.15/Modules/Platform/Windows.cmake"
   "F:/Program Files/JetBrains/CLion 2019.3.5/bin/cmake/win/share/cmake-3.15/Modules/Platform/WindowsPaths.cmake"
   "F:/Program Files/JetBrains/CLion 2019.3.5/bin/cmake/win/share/cmake-3.15/Modules/ProcessorCount.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5/Qt5Config.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Sql/Qt5SqlConfig.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Sql/Qt5Sql_QODBCDriverPlugin.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Sql/Qt5Sql_QPSQLDriverPlugin.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Sql/Qt5Sql_QSQLiteDriverPlugin.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake"
+  "F:/Qt/5.14.1/mingw73_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake"
   )
 
 # The corresponding makefile is:
@@ -48,10 +89,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "CMakeFiles/Showboat_autogen.dir/AutogenInfo.cmake"
+  "CMakeFiles/Showboat_autogen.dir/RCCShowboatResourcesInfo.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/showboat.dir/DependInfo.cmake"
+  "CMakeFiles/Showboat.dir/DependInfo.cmake"
+  "CMakeFiles/Showboat_autogen.dir/DependInfo.cmake"
   )

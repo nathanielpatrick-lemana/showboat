@@ -48,67 +48,127 @@ CMAKE_SOURCE_DIR = E:\Projects\showboat
 CMAKE_BINARY_DIR = E:\Projects\showboat\cmake-build-debug
 
 # Include any dependencies generated for this target.
-include CMakeFiles/showboat.dir/depend.make
+include CMakeFiles/Showboat.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/showboat.dir/progress.make
+include CMakeFiles/Showboat.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/showboat.dir/flags.make
+include CMakeFiles/Showboat.dir/flags.make
 
-CMakeFiles/showboat.dir/main.cpp.obj: CMakeFiles/showboat.dir/flags.make
-CMakeFiles/showboat.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\showboat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/showboat.dir/main.cpp.obj"
-	F:\Qt\Tools\mingw730_64\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\showboat.dir\main.cpp.obj -c E:\Projects\showboat\main.cpp
+Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp: ../ShowboatResources.qrc
+Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp: CMakeFiles/Showboat_autogen.dir/RCCShowboatResourcesInfo.cmake
+Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp: F:/Qt/5.14.1/mingw73_64/bin/rcc.exe
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=E:\Projects\showboat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for ShowboatResources.qrc"
+	"F:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E cmake_autorcc E:/Projects/showboat/cmake-build-debug/CMakeFiles/Showboat_autogen.dir/RCCShowboatResourcesInfo.cmake Debug
 
-CMakeFiles/showboat.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/showboat.dir/main.cpp.i"
-	F:\Qt\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Projects\showboat\main.cpp > CMakeFiles\showboat.dir\main.cpp.i
+CMakeFiles/Showboat.dir/Showboat_autogen/mocs_compilation.cpp.obj: CMakeFiles/Showboat.dir/flags.make
+CMakeFiles/Showboat.dir/Showboat_autogen/mocs_compilation.cpp.obj: CMakeFiles/Showboat.dir/includes_CXX.rsp
+CMakeFiles/Showboat.dir/Showboat_autogen/mocs_compilation.cpp.obj: Showboat_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\showboat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Showboat.dir/Showboat_autogen/mocs_compilation.cpp.obj"
+	F:\Qt\Tools\mingw730_64\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Showboat.dir\Showboat_autogen\mocs_compilation.cpp.obj -c E:\Projects\showboat\cmake-build-debug\Showboat_autogen\mocs_compilation.cpp
 
-CMakeFiles/showboat.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/showboat.dir/main.cpp.s"
-	F:\Qt\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Projects\showboat\main.cpp -o CMakeFiles\showboat.dir\main.cpp.s
+CMakeFiles/Showboat.dir/Showboat_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Showboat.dir/Showboat_autogen/mocs_compilation.cpp.i"
+	F:\Qt\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Projects\showboat\cmake-build-debug\Showboat_autogen\mocs_compilation.cpp > CMakeFiles\Showboat.dir\Showboat_autogen\mocs_compilation.cpp.i
 
-CMakeFiles/showboat.dir/showData.cpp.obj: CMakeFiles/showboat.dir/flags.make
-CMakeFiles/showboat.dir/showData.cpp.obj: ../showData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\showboat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/showboat.dir/showData.cpp.obj"
-	F:\Qt\Tools\mingw730_64\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\showboat.dir\showData.cpp.obj -c E:\Projects\showboat\showData.cpp
+CMakeFiles/Showboat.dir/Showboat_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Showboat.dir/Showboat_autogen/mocs_compilation.cpp.s"
+	F:\Qt\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Projects\showboat\cmake-build-debug\Showboat_autogen\mocs_compilation.cpp -o CMakeFiles\Showboat.dir\Showboat_autogen\mocs_compilation.cpp.s
 
-CMakeFiles/showboat.dir/showData.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/showboat.dir/showData.cpp.i"
-	F:\Qt\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Projects\showboat\showData.cpp > CMakeFiles\showboat.dir\showData.cpp.i
+CMakeFiles/Showboat.dir/ShowboatGame.cpp.obj: CMakeFiles/Showboat.dir/flags.make
+CMakeFiles/Showboat.dir/ShowboatGame.cpp.obj: CMakeFiles/Showboat.dir/includes_CXX.rsp
+CMakeFiles/Showboat.dir/ShowboatGame.cpp.obj: ../ShowboatGame.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\showboat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Showboat.dir/ShowboatGame.cpp.obj"
+	F:\Qt\Tools\mingw730_64\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Showboat.dir\ShowboatGame.cpp.obj -c E:\Projects\showboat\ShowboatGame.cpp
 
-CMakeFiles/showboat.dir/showData.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/showboat.dir/showData.cpp.s"
-	F:\Qt\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Projects\showboat\showData.cpp -o CMakeFiles\showboat.dir\showData.cpp.s
+CMakeFiles/Showboat.dir/ShowboatGame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Showboat.dir/ShowboatGame.cpp.i"
+	F:\Qt\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Projects\showboat\ShowboatGame.cpp > CMakeFiles\Showboat.dir\ShowboatGame.cpp.i
 
-# Object files for target showboat
-showboat_OBJECTS = \
-"CMakeFiles/showboat.dir/main.cpp.obj" \
-"CMakeFiles/showboat.dir/showData.cpp.obj"
+CMakeFiles/Showboat.dir/ShowboatGame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Showboat.dir/ShowboatGame.cpp.s"
+	F:\Qt\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Projects\showboat\ShowboatGame.cpp -o CMakeFiles\Showboat.dir\ShowboatGame.cpp.s
 
-# External object files for target showboat
-showboat_EXTERNAL_OBJECTS =
+CMakeFiles/Showboat.dir/Showboat.cpp.obj: CMakeFiles/Showboat.dir/flags.make
+CMakeFiles/Showboat.dir/Showboat.cpp.obj: CMakeFiles/Showboat.dir/includes_CXX.rsp
+CMakeFiles/Showboat.dir/Showboat.cpp.obj: ../Showboat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\showboat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Showboat.dir/Showboat.cpp.obj"
+	F:\Qt\Tools\mingw730_64\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Showboat.dir\Showboat.cpp.obj -c E:\Projects\showboat\Showboat.cpp
 
-showboat.exe: CMakeFiles/showboat.dir/main.cpp.obj
-showboat.exe: CMakeFiles/showboat.dir/showData.cpp.obj
-showboat.exe: CMakeFiles/showboat.dir/build.make
-showboat.exe: CMakeFiles/showboat.dir/linklibs.rsp
-showboat.exe: CMakeFiles/showboat.dir/objects1.rsp
-showboat.exe: CMakeFiles/showboat.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Projects\showboat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable showboat.exe"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\showboat.dir\link.txt --verbose=$(VERBOSE)
+CMakeFiles/Showboat.dir/Showboat.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Showboat.dir/Showboat.cpp.i"
+	F:\Qt\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Projects\showboat\Showboat.cpp > CMakeFiles\Showboat.dir\Showboat.cpp.i
+
+CMakeFiles/Showboat.dir/Showboat.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Showboat.dir/Showboat.cpp.s"
+	F:\Qt\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Projects\showboat\Showboat.cpp -o CMakeFiles\Showboat.dir\Showboat.cpp.s
+
+CMakeFiles/Showboat.dir/sqlHandler.cpp.obj: CMakeFiles/Showboat.dir/flags.make
+CMakeFiles/Showboat.dir/sqlHandler.cpp.obj: CMakeFiles/Showboat.dir/includes_CXX.rsp
+CMakeFiles/Showboat.dir/sqlHandler.cpp.obj: ../sqlHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\showboat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Showboat.dir/sqlHandler.cpp.obj"
+	F:\Qt\Tools\mingw730_64\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Showboat.dir\sqlHandler.cpp.obj -c E:\Projects\showboat\sqlHandler.cpp
+
+CMakeFiles/Showboat.dir/sqlHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Showboat.dir/sqlHandler.cpp.i"
+	F:\Qt\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Projects\showboat\sqlHandler.cpp > CMakeFiles\Showboat.dir\sqlHandler.cpp.i
+
+CMakeFiles/Showboat.dir/sqlHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Showboat.dir/sqlHandler.cpp.s"
+	F:\Qt\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Projects\showboat\sqlHandler.cpp -o CMakeFiles\Showboat.dir\sqlHandler.cpp.s
+
+CMakeFiles/Showboat.dir/Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp.obj: CMakeFiles/Showboat.dir/flags.make
+CMakeFiles/Showboat.dir/Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp.obj: CMakeFiles/Showboat.dir/includes_CXX.rsp
+CMakeFiles/Showboat.dir/Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp.obj: Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\showboat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Showboat.dir/Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp.obj"
+	F:\Qt\Tools\mingw730_64\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Showboat.dir\Showboat_autogen\EWIEGA46WW\qrc_ShowboatResources.cpp.obj -c E:\Projects\showboat\cmake-build-debug\Showboat_autogen\EWIEGA46WW\qrc_ShowboatResources.cpp
+
+CMakeFiles/Showboat.dir/Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Showboat.dir/Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp.i"
+	F:\Qt\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Projects\showboat\cmake-build-debug\Showboat_autogen\EWIEGA46WW\qrc_ShowboatResources.cpp > CMakeFiles\Showboat.dir\Showboat_autogen\EWIEGA46WW\qrc_ShowboatResources.cpp.i
+
+CMakeFiles/Showboat.dir/Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Showboat.dir/Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp.s"
+	F:\Qt\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Projects\showboat\cmake-build-debug\Showboat_autogen\EWIEGA46WW\qrc_ShowboatResources.cpp -o CMakeFiles\Showboat.dir\Showboat_autogen\EWIEGA46WW\qrc_ShowboatResources.cpp.s
+
+# Object files for target Showboat
+Showboat_OBJECTS = \
+"CMakeFiles/Showboat.dir/Showboat_autogen/mocs_compilation.cpp.obj" \
+"CMakeFiles/Showboat.dir/ShowboatGame.cpp.obj" \
+"CMakeFiles/Showboat.dir/Showboat.cpp.obj" \
+"CMakeFiles/Showboat.dir/sqlHandler.cpp.obj" \
+"CMakeFiles/Showboat.dir/Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp.obj"
+
+# External object files for target Showboat
+Showboat_EXTERNAL_OBJECTS =
+
+Showboat.exe: CMakeFiles/Showboat.dir/Showboat_autogen/mocs_compilation.cpp.obj
+Showboat.exe: CMakeFiles/Showboat.dir/ShowboatGame.cpp.obj
+Showboat.exe: CMakeFiles/Showboat.dir/Showboat.cpp.obj
+Showboat.exe: CMakeFiles/Showboat.dir/sqlHandler.cpp.obj
+Showboat.exe: CMakeFiles/Showboat.dir/Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp.obj
+Showboat.exe: CMakeFiles/Showboat.dir/build.make
+Showboat.exe: F:/Qt/5.14.1/mingw73_64/lib/libQt5Widgets.a
+Showboat.exe: F:/Qt/5.14.1/mingw73_64/lib/libQt5Sql.a
+Showboat.exe: F:/Qt/5.14.1/mingw73_64/lib/libQt5Gui.a
+Showboat.exe: F:/Qt/5.14.1/mingw73_64/lib/libQt5Core.a
+Showboat.exe: CMakeFiles/Showboat.dir/linklibs.rsp
+Showboat.exe: CMakeFiles/Showboat.dir/objects1.rsp
+Showboat.exe: CMakeFiles/Showboat.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Projects\showboat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Showboat.exe"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Showboat.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/showboat.dir/build: showboat.exe
+CMakeFiles/Showboat.dir/build: Showboat.exe
 
-.PHONY : CMakeFiles/showboat.dir/build
+.PHONY : CMakeFiles/Showboat.dir/build
 
-CMakeFiles/showboat.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles\showboat.dir\cmake_clean.cmake
-.PHONY : CMakeFiles/showboat.dir/clean
+CMakeFiles/Showboat.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles\Showboat.dir\cmake_clean.cmake
+.PHONY : CMakeFiles/Showboat.dir/clean
 
-CMakeFiles/showboat.dir/depend:
+CMakeFiles/Showboat.dir/depend: Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp
 	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\Projects\showboat E:\Projects\showboat E:\Projects\showboat\cmake-build-debug E:\Projects\showboat\cmake-build-debug E:\Projects\showboat\cmake-build-debug\CMakeFiles\showboat.dir\DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/showboat.dir/depend
+.PHONY : CMakeFiles/Showboat.dir/depend
 
