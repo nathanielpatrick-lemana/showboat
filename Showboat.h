@@ -12,7 +12,6 @@ Q_OBJECT
 
 public:
     ShowboatMainWindow(QMainWindow *parent = nullptr);
-    void printStringRep();
     void updateUI();
 
     bool connOpen();
@@ -23,9 +22,6 @@ public:
     void deleteEntry();
 
 private:
-    bool dummyVariable;
-    std::string textOutput;
-
 
 public Q_SLOTS:
     void pushButtonClickedHandler();
