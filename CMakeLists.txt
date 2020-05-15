@@ -28,7 +28,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${Qt5Widgets_EXECUTABLE_COMPILE_FLAGS}")
 
 qt5_generate_moc(ShowboatGame.cpp ShowboatGame.moc Showboat.cpp Showboat.moc)
 
-add_executable(${PROJECT_NAME} ShowboatGame.cpp Showboat.cpp Showboat.h sqlHandler.cpp ShowboatMainWindow.ui ShowboatResources.qrc)
+add_executable(${PROJECT_NAME} ShowboatGame.cpp Showboat.cpp Showboat.h sqlHandler.cpp ShowboatMainWindow.ui ShowboatResources.qrc showClass.cpp showClass.h)
 
 #Link the QtStarter executable to the Qt 5 widgets library.
 target_link_libraries(${PROJECT_NAME} Qt5::Widgets Qt5::Sql)

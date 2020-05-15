@@ -2,6 +2,7 @@
 #define QTSTARTERSTARTER_QTSTARTER_H
 
 #include "ui_ShowboatMainWindow.h"
+#include "showClass.h"
 #include <QMainWindow>
 #include <QtSql>
 #include <QDebug>
@@ -18,8 +19,8 @@ public:
     void connClose();
 
     void loadShowList();
-    void addNewEntry();
-    void deleteEntry();
+    void addNewEntry(Show workingShow);
+    void deleteEntry(Show workingSHow);
 
 private:
 

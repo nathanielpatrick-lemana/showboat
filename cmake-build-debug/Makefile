@@ -243,6 +243,33 @@ Showboat_autogen/mocs_compilation.cpp.s:
 	$(MAKE) -f CMakeFiles\Showboat.dir\build.make CMakeFiles/Showboat.dir/Showboat_autogen/mocs_compilation.cpp.s
 .PHONY : Showboat_autogen/mocs_compilation.cpp.s
 
+showClass.obj: showClass.cpp.obj
+
+.PHONY : showClass.obj
+
+# target to build an object file
+showClass.cpp.obj:
+	$(MAKE) -f CMakeFiles\Showboat.dir\build.make CMakeFiles/Showboat.dir/showClass.cpp.obj
+.PHONY : showClass.cpp.obj
+
+showClass.i: showClass.cpp.i
+
+.PHONY : showClass.i
+
+# target to preprocess a source file
+showClass.cpp.i:
+	$(MAKE) -f CMakeFiles\Showboat.dir\build.make CMakeFiles/Showboat.dir/showClass.cpp.i
+.PHONY : showClass.cpp.i
+
+showClass.s: showClass.cpp.s
+
+.PHONY : showClass.s
+
+# target to generate assembly for a file
+showClass.cpp.s:
+	$(MAKE) -f CMakeFiles\Showboat.dir\build.make CMakeFiles/Showboat.dir/showClass.cpp.s
+.PHONY : showClass.cpp.s
+
 sqlHandler.obj: sqlHandler.cpp.obj
 
 .PHONY : sqlHandler.obj
@@ -292,6 +319,9 @@ help:
 	@echo ... Showboat_autogen/mocs_compilation.obj
 	@echo ... Showboat_autogen/mocs_compilation.i
 	@echo ... Showboat_autogen/mocs_compilation.s
+	@echo ... showClass.obj
+	@echo ... showClass.i
+	@echo ... showClass.s
 	@echo ... sqlHandler.obj
 	@echo ... sqlHandler.i
 	@echo ... sqlHandler.s

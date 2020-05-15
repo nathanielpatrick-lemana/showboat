@@ -47,48 +47,49 @@ void ShowboatMainWindow::loadShowList(){ //Load the show list from the titles of
     qDebug() << (modal->rowCount());
 }
 
-void ShowboatMainWindow::addNewEntry(){  //Add a show or change a show with INSERT or REPLACE
-    connOpen();
-    QString title,watched,episodes,rating;
-    title=showNameUI->text();
-    watched=episodesWatchedUI->text();
-    episodes=episodesTotalUI->text();
-    rating=ratingUI->text();
-    int watchedCompare = watched.toInt();
-    int episodesCompare = episodes.toInt();
-    if(watchedCompare > episodesCompare){
-        QMessageBox::critical(this, tr("Showboat - Syntax Error"), tr("Cannot add a show with a greater amount of watched episodes than episodes total"));
-    }
-    else if (watchedCompare == 0) {
-        QMessageBox::critical(this, tr("Showboat - Syntax Error"), tr("Cannot add a show where there are zero episodes to watch"));
+void ShowboatMainWindow::addNewEntry(Show workingShow) {  //Add a show or change a show with INSERT or REPLACE
+    if (workingShow.getTitle() == "") {
+        QMessageBox::critical(this, tr("Showboat - Null Error"), tr("Title field is empty, put something in there!"));
     } else {
+        connOpen();
+        if (workingShow.getWatched() > workingShow.getEpisodes()) {
+            QMessageBox::critical(this, tr("Showboat - Syntax Error"),
+                                  tr("Cannot add a show with a greater amount of watched episodes than episodes total"));
+        } else if (workingShow.getEpisodes() == 0) {
+            QMessageBox::critical(this, tr("Showboat - Syntax Error"),
+                                  tr("Cannot add a show where there are zero episodes to watch"));
+        } else {
             QSqlQuery qry;
-            qry.prepare("insert or replace into shows values('"+title+"', "+watched+", "+episodes+", "+rating+");");
-            if(qry.exec()){
+            qry.prepare(
+                    "insert or replace into shows values('" + QString::fromStdString(workingShow.getTitle()) + "', " +
+                    QString::number(workingShow.getWatched()) + ", " + QString::number(workingShow.getEpisodes()) +
+                    ", " + QString::number(workingShow.getRating(), 'f', 2) + ");");
+            if (qry.exec()) {
                 QMessageBox::information(this, tr("Showboat - Save Data"), tr("Data saved."));
                 connClose();
-            }
-            else{
+            } else {
                 QMessageBox::critical(this, tr("Showboat - SQL Error"), qry.lastError().text(), qry.executedQuery());
                 connClose();
             }
         }
     }
+}
 
-void ShowboatMainWindow::deleteEntry(){ //Remove an entry from the database
-    connOpen();
-    QString title;
-    title = showNameUI->text();
-
-    QSqlQuery qry;
-    qry.prepare("delete from shows where Title = '"+title+"';");
-    if(qry.exec()){
-        QMessageBox::information(this, tr("Showboat - Delete Data"), tr("Entry deleted."));
-        connClose();
-    }
-    else{
-        QMessageBox::critical(this, tr("Showboat - SQL Error"), qry.lastError().text(), qry.executedQuery());
-        connClose();
+void ShowboatMainWindow::deleteEntry(Show workingShow){ //Remove an entry from the database
+    if (workingShow.getTitle() == "") {
+        QMessageBox::critical(this, tr("Showboat - Null Error"), tr("Title field is empty, put something in there!"));
+    } else {
+        connOpen();
+        QString title = QString::fromStdString(workingShow.getTitle());
+        QSqlQuery qry;
+        qry.prepare("delete from shows where Title = '" + title + "';");
+        if (qry.exec()) {
+            QMessageBox::information(this, tr("Showboat - Delete Data"), tr("Entry deleted."));
+            connClose();
+        } else {
+            QMessageBox::critical(this, tr("Showboat - SQL Error"), qry.lastError().text(), qry.executedQuery());
+            connClose();
+        }
     }
 }
 

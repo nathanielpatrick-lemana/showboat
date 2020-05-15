@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "E:/Projects/showboat/ShowboatGame.cpp" "E:/Projects/showboat/cmake-build-debug/CMakeFiles/showboat.dir/ShowboatGame.cpp.obj"
   "E:/Projects/showboat/cmake-build-debug/Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp" "E:/Projects/showboat/cmake-build-debug/CMakeFiles/showboat.dir/Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp.obj"
   "E:/Projects/showboat/cmake-build-debug/Showboat_autogen/mocs_compilation.cpp" "E:/Projects/showboat/cmake-build-debug/CMakeFiles/showboat.dir/Showboat_autogen/mocs_compilation.cpp.obj"
+  "E:/Projects/showboat/showClass.cpp" "E:/Projects/showboat/cmake-build-debug/CMakeFiles/showboat.dir/showClass.cpp.obj"
   "E:/Projects/showboat/sqlHandler.cpp" "E:/Projects/showboat/cmake-build-debug/CMakeFiles/showboat.dir/sqlHandler.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

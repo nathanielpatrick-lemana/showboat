@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Showboat.dir/ShowboatGame.cpp.obj"
   "CMakeFiles/Showboat.dir/Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp.obj"
   "CMakeFiles/Showboat.dir/Showboat_autogen/mocs_compilation.cpp.obj"
+  "CMakeFiles/Showboat.dir/showClass.cpp.obj"
   "CMakeFiles/Showboat.dir/sqlHandler.cpp.obj"
   "CMakeFiles/Showboat_autogen.dir/AutogenOldSettings.txt"
   "CMakeFiles/Showboat_autogen.dir/ParseCache.txt"

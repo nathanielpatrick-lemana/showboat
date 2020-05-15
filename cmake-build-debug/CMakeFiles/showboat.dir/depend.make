@@ -3,6 +3,7 @@
 
 CMakeFiles/showboat.dir/Showboat.cpp.obj: ../Showboat.cpp
 CMakeFiles/showboat.dir/Showboat.cpp.obj: ../Showboat.h
+CMakeFiles/showboat.dir/Showboat.cpp.obj: ../showClass.h
 CMakeFiles/showboat.dir/Showboat.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtCore/QDebug
 CMakeFiles/showboat.dir/Showboat.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtCore/QFileInfo
 CMakeFiles/showboat.dir/Showboat.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtCore/QObject
@@ -262,6 +263,7 @@ CMakeFiles/showboat.dir/Showboat.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtSql/
 CMakeFiles/showboat.dir/Showboat.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtSql/qtsqlversion.h
 CMakeFiles/showboat.dir/Showboat.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtWidgets/QApplication
 CMakeFiles/showboat.dir/Showboat.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtWidgets/QDoubleSpinBox
+CMakeFiles/showboat.dir/Showboat.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtWidgets/QGridLayout
 CMakeFiles/showboat.dir/Showboat.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtWidgets/QHBoxLayout
 CMakeFiles/showboat.dir/Showboat.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtWidgets/QLabel
 CMakeFiles/showboat.dir/Showboat.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtWidgets/QLineEdit
@@ -315,6 +317,7 @@ CMakeFiles/showboat.dir/Showboat.cpp.obj: Showboat_autogen/include/ui_ShowboatMa
 
 CMakeFiles/showboat.dir/ShowboatGame.cpp.obj: ../Showboat.h
 CMakeFiles/showboat.dir/ShowboatGame.cpp.obj: ../ShowboatGame.cpp
+CMakeFiles/showboat.dir/ShowboatGame.cpp.obj: ../showClass.h
 CMakeFiles/showboat.dir/ShowboatGame.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtANGLE/GLES2/gl2.h
 CMakeFiles/showboat.dir/ShowboatGame.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtANGLE/GLES2/gl2platform.h
 CMakeFiles/showboat.dir/ShowboatGame.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtANGLE/GLES3/gl3.h
@@ -674,6 +677,7 @@ CMakeFiles/showboat.dir/ShowboatGame.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/Qt
 CMakeFiles/showboat.dir/ShowboatGame.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtWidgets/QApplication
 CMakeFiles/showboat.dir/ShowboatGame.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtWidgets/QCommonStyle
 CMakeFiles/showboat.dir/ShowboatGame.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtWidgets/QDoubleSpinBox
+CMakeFiles/showboat.dir/ShowboatGame.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtWidgets/QGridLayout
 CMakeFiles/showboat.dir/ShowboatGame.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtWidgets/QHBoxLayout
 CMakeFiles/showboat.dir/ShowboatGame.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtWidgets/QLabel
 CMakeFiles/showboat.dir/ShowboatGame.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtWidgets/QLayout
@@ -824,6 +828,7 @@ CMakeFiles/showboat.dir/Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp.ob
 CMakeFiles/showboat.dir/Showboat_autogen/mocs_compilation.cpp.obj: ../Showboat.h
 CMakeFiles/showboat.dir/Showboat_autogen/mocs_compilation.cpp.obj: Showboat_autogen/EWIEGA46WW/moc_Showboat.cpp
 CMakeFiles/showboat.dir/Showboat_autogen/mocs_compilation.cpp.obj: Showboat_autogen/mocs_compilation.cpp
+CMakeFiles/showboat.dir/Showboat_autogen/mocs_compilation.cpp.obj: ../showClass.h
 CMakeFiles/showboat.dir/Showboat_autogen/mocs_compilation.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtCore/QDebug
 CMakeFiles/showboat.dir/Showboat_autogen/mocs_compilation.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtCore/QFileInfo
 CMakeFiles/showboat.dir/Showboat_autogen/mocs_compilation.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtCore/QObject
@@ -1079,6 +1084,7 @@ CMakeFiles/showboat.dir/Showboat_autogen/mocs_compilation.cpp.obj: F:/Qt/5.14.1/
 CMakeFiles/showboat.dir/Showboat_autogen/mocs_compilation.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtSql/qtsqlversion.h
 CMakeFiles/showboat.dir/Showboat_autogen/mocs_compilation.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtWidgets/QApplication
 CMakeFiles/showboat.dir/Showboat_autogen/mocs_compilation.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtWidgets/QDoubleSpinBox
+CMakeFiles/showboat.dir/Showboat_autogen/mocs_compilation.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtWidgets/QGridLayout
 CMakeFiles/showboat.dir/Showboat_autogen/mocs_compilation.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtWidgets/QHBoxLayout
 CMakeFiles/showboat.dir/Showboat_autogen/mocs_compilation.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtWidgets/QLabel
 CMakeFiles/showboat.dir/Showboat_autogen/mocs_compilation.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtWidgets/QLineEdit
@@ -1127,7 +1133,11 @@ CMakeFiles/showboat.dir/Showboat_autogen/mocs_compilation.cpp.obj: F:/Qt/5.14.1/
 CMakeFiles/showboat.dir/Showboat_autogen/mocs_compilation.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtWidgets/qwidget.h
 CMakeFiles/showboat.dir/Showboat_autogen/mocs_compilation.cpp.obj: Showboat_autogen/include/ui_ShowboatMainWindow.h
 
+CMakeFiles/showboat.dir/showClass.cpp.obj: ../showClass.cpp
+CMakeFiles/showboat.dir/showClass.cpp.obj: ../showClass.h
+
 CMakeFiles/showboat.dir/sqlHandler.cpp.obj: ../Showboat.h
+CMakeFiles/showboat.dir/sqlHandler.cpp.obj: ../showClass.h
 CMakeFiles/showboat.dir/sqlHandler.cpp.obj: ../sqlHandler.cpp
 CMakeFiles/showboat.dir/sqlHandler.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtCore/QDebug
 CMakeFiles/showboat.dir/sqlHandler.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtCore/QFileInfo
@@ -1388,6 +1398,7 @@ CMakeFiles/showboat.dir/sqlHandler.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtSq
 CMakeFiles/showboat.dir/sqlHandler.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtSql/qtsqlversion.h
 CMakeFiles/showboat.dir/sqlHandler.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtWidgets/QApplication
 CMakeFiles/showboat.dir/sqlHandler.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtWidgets/QDoubleSpinBox
+CMakeFiles/showboat.dir/sqlHandler.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtWidgets/QGridLayout
 CMakeFiles/showboat.dir/sqlHandler.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtWidgets/QHBoxLayout
 CMakeFiles/showboat.dir/sqlHandler.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtWidgets/QLabel
 CMakeFiles/showboat.dir/sqlHandler.cpp.obj: F:/Qt/5.14.1/mingw73_64/include/QtWidgets/QLineEdit

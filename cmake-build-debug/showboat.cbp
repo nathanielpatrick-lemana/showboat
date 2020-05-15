@@ -144,6 +144,12 @@
 		<Unit filename="E:/Projects/showboat/cmake-build-debug/Showboat_autogen/mocs_compilation.cpp">
 			<Option target="Showboat"/>
 		</Unit>
+		<Unit filename="E:/Projects/showboat/showClass.cpp">
+			<Option target="Showboat"/>
+		</Unit>
+		<Unit filename="E:/Projects/showboat/showClass.h">
+			<Option target="Showboat"/>
+		</Unit>
 		<Unit filename="E:/Projects/showboat/sqlHandler.cpp">
 			<Option target="Showboat"/>
 		</Unit>
