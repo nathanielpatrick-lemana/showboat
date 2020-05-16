@@ -110,71 +110,192 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named showboat
+# Target rules for targets named Showboat
 
 # Build rule for target.
-showboat: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 showboat
-.PHONY : showboat
+Showboat: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Showboat
+.PHONY : Showboat
 
 # fast build rule for target.
-showboat/fast:
-	$(MAKE) -f CMakeFiles\showboat.dir\build.make CMakeFiles/showboat.dir/build
-.PHONY : showboat/fast
+Showboat/fast:
+	$(MAKE) -f CMakeFiles\Showboat.dir\build.make CMakeFiles/Showboat.dir/build
+.PHONY : Showboat/fast
 
-main.obj: main.cpp.obj
+#=============================================================================
+# Target rules for targets named Showboat_autogen
 
-.PHONY : main.obj
+# Build rule for target.
+Showboat_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Showboat_autogen
+.PHONY : Showboat_autogen
 
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\showboat.dir\build.make CMakeFiles/showboat.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+# fast build rule for target.
+Showboat_autogen/fast:
+	$(MAKE) -f CMakeFiles\Showboat_autogen.dir\build.make CMakeFiles/Showboat_autogen.dir/build
+.PHONY : Showboat_autogen/fast
 
-main.i: main.cpp.i
+Showboat.obj: Showboat.cpp.obj
 
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\showboat.dir\build.make CMakeFiles/showboat.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\showboat.dir\build.make CMakeFiles/showboat.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-showData.obj: showData.cpp.obj
-
-.PHONY : showData.obj
+.PHONY : Showboat.obj
 
 # target to build an object file
-showData.cpp.obj:
-	$(MAKE) -f CMakeFiles\showboat.dir\build.make CMakeFiles/showboat.dir/showData.cpp.obj
-.PHONY : showData.cpp.obj
+Showboat.cpp.obj:
+	$(MAKE) -f CMakeFiles\Showboat.dir\build.make CMakeFiles/Showboat.dir/Showboat.cpp.obj
+.PHONY : Showboat.cpp.obj
 
-showData.i: showData.cpp.i
+Showboat.i: Showboat.cpp.i
 
-.PHONY : showData.i
+.PHONY : Showboat.i
 
 # target to preprocess a source file
-showData.cpp.i:
-	$(MAKE) -f CMakeFiles\showboat.dir\build.make CMakeFiles/showboat.dir/showData.cpp.i
-.PHONY : showData.cpp.i
+Showboat.cpp.i:
+	$(MAKE) -f CMakeFiles\Showboat.dir\build.make CMakeFiles/Showboat.dir/Showboat.cpp.i
+.PHONY : Showboat.cpp.i
 
-showData.s: showData.cpp.s
+Showboat.s: Showboat.cpp.s
 
-.PHONY : showData.s
+.PHONY : Showboat.s
 
 # target to generate assembly for a file
-showData.cpp.s:
-	$(MAKE) -f CMakeFiles\showboat.dir\build.make CMakeFiles/showboat.dir/showData.cpp.s
-.PHONY : showData.cpp.s
+Showboat.cpp.s:
+	$(MAKE) -f CMakeFiles\Showboat.dir\build.make CMakeFiles/Showboat.dir/Showboat.cpp.s
+.PHONY : Showboat.cpp.s
+
+ShowboatGame.obj: ShowboatGame.cpp.obj
+
+.PHONY : ShowboatGame.obj
+
+# target to build an object file
+ShowboatGame.cpp.obj:
+	$(MAKE) -f CMakeFiles\Showboat.dir\build.make CMakeFiles/Showboat.dir/ShowboatGame.cpp.obj
+.PHONY : ShowboatGame.cpp.obj
+
+ShowboatGame.i: ShowboatGame.cpp.i
+
+.PHONY : ShowboatGame.i
+
+# target to preprocess a source file
+ShowboatGame.cpp.i:
+	$(MAKE) -f CMakeFiles\Showboat.dir\build.make CMakeFiles/Showboat.dir/ShowboatGame.cpp.i
+.PHONY : ShowboatGame.cpp.i
+
+ShowboatGame.s: ShowboatGame.cpp.s
+
+.PHONY : ShowboatGame.s
+
+# target to generate assembly for a file
+ShowboatGame.cpp.s:
+	$(MAKE) -f CMakeFiles\Showboat.dir\build.make CMakeFiles/Showboat.dir/ShowboatGame.cpp.s
+.PHONY : ShowboatGame.cpp.s
+
+Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.obj: Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp.obj
+
+.PHONY : Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.obj
+
+# target to build an object file
+Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp.obj:
+	$(MAKE) -f CMakeFiles\Showboat.dir\build.make CMakeFiles/Showboat.dir/Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp.obj
+.PHONY : Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp.obj
+
+Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.i: Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp.i
+
+.PHONY : Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.i
+
+# target to preprocess a source file
+Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp.i:
+	$(MAKE) -f CMakeFiles\Showboat.dir\build.make CMakeFiles/Showboat.dir/Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp.i
+.PHONY : Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp.i
+
+Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.s: Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp.s
+
+.PHONY : Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.s
+
+# target to generate assembly for a file
+Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp.s:
+	$(MAKE) -f CMakeFiles\Showboat.dir\build.make CMakeFiles/Showboat.dir/Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp.s
+.PHONY : Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.cpp.s
+
+Showboat_autogen/mocs_compilation.obj: Showboat_autogen/mocs_compilation.cpp.obj
+
+.PHONY : Showboat_autogen/mocs_compilation.obj
+
+# target to build an object file
+Showboat_autogen/mocs_compilation.cpp.obj:
+	$(MAKE) -f CMakeFiles\Showboat.dir\build.make CMakeFiles/Showboat.dir/Showboat_autogen/mocs_compilation.cpp.obj
+.PHONY : Showboat_autogen/mocs_compilation.cpp.obj
+
+Showboat_autogen/mocs_compilation.i: Showboat_autogen/mocs_compilation.cpp.i
+
+.PHONY : Showboat_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+Showboat_autogen/mocs_compilation.cpp.i:
+	$(MAKE) -f CMakeFiles\Showboat.dir\build.make CMakeFiles/Showboat.dir/Showboat_autogen/mocs_compilation.cpp.i
+.PHONY : Showboat_autogen/mocs_compilation.cpp.i
+
+Showboat_autogen/mocs_compilation.s: Showboat_autogen/mocs_compilation.cpp.s
+
+.PHONY : Showboat_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+Showboat_autogen/mocs_compilation.cpp.s:
+	$(MAKE) -f CMakeFiles\Showboat.dir\build.make CMakeFiles/Showboat.dir/Showboat_autogen/mocs_compilation.cpp.s
+.PHONY : Showboat_autogen/mocs_compilation.cpp.s
+
+showClass.obj: showClass.cpp.obj
+
+.PHONY : showClass.obj
+
+# target to build an object file
+showClass.cpp.obj:
+	$(MAKE) -f CMakeFiles\Showboat.dir\build.make CMakeFiles/Showboat.dir/showClass.cpp.obj
+.PHONY : showClass.cpp.obj
+
+showClass.i: showClass.cpp.i
+
+.PHONY : showClass.i
+
+# target to preprocess a source file
+showClass.cpp.i:
+	$(MAKE) -f CMakeFiles\Showboat.dir\build.make CMakeFiles/Showboat.dir/showClass.cpp.i
+.PHONY : showClass.cpp.i
+
+showClass.s: showClass.cpp.s
+
+.PHONY : showClass.s
+
+# target to generate assembly for a file
+showClass.cpp.s:
+	$(MAKE) -f CMakeFiles\Showboat.dir\build.make CMakeFiles/Showboat.dir/showClass.cpp.s
+.PHONY : showClass.cpp.s
+
+sqlHandler.obj: sqlHandler.cpp.obj
+
+.PHONY : sqlHandler.obj
+
+# target to build an object file
+sqlHandler.cpp.obj:
+	$(MAKE) -f CMakeFiles\Showboat.dir\build.make CMakeFiles/Showboat.dir/sqlHandler.cpp.obj
+.PHONY : sqlHandler.cpp.obj
+
+sqlHandler.i: sqlHandler.cpp.i
+
+.PHONY : sqlHandler.i
+
+# target to preprocess a source file
+sqlHandler.cpp.i:
+	$(MAKE) -f CMakeFiles\Showboat.dir\build.make CMakeFiles/Showboat.dir/sqlHandler.cpp.i
+.PHONY : sqlHandler.cpp.i
+
+sqlHandler.s: sqlHandler.cpp.s
+
+.PHONY : sqlHandler.s
+
+# target to generate assembly for a file
+sqlHandler.cpp.s:
+	$(MAKE) -f CMakeFiles\Showboat.dir\build.make CMakeFiles/Showboat.dir/sqlHandler.cpp.s
+.PHONY : sqlHandler.cpp.s
 
 # Help Target
 help:
@@ -182,15 +303,28 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... showboat
+	@echo ... Showboat
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
-	@echo ... showData.obj
-	@echo ... showData.i
-	@echo ... showData.s
+	@echo ... Showboat_autogen
+	@echo ... Showboat.obj
+	@echo ... Showboat.i
+	@echo ... Showboat.s
+	@echo ... ShowboatGame.obj
+	@echo ... ShowboatGame.i
+	@echo ... ShowboatGame.s
+	@echo ... Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.obj
+	@echo ... Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.i
+	@echo ... Showboat_autogen/EWIEGA46WW/qrc_ShowboatResources.s
+	@echo ... Showboat_autogen/mocs_compilation.obj
+	@echo ... Showboat_autogen/mocs_compilation.i
+	@echo ... Showboat_autogen/mocs_compilation.s
+	@echo ... showClass.obj
+	@echo ... showClass.i
+	@echo ... showClass.s
+	@echo ... sqlHandler.obj
+	@echo ... sqlHandler.i
+	@echo ... sqlHandler.s
 .PHONY : help
 
 

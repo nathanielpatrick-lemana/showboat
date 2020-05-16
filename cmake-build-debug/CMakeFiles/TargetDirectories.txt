@@ -1,3 +1,4 @@
-E:/Projects/showboat/cmake-build-debug/CMakeFiles/showboat.dir
+E:/Projects/showboat/cmake-build-debug/CMakeFiles/Showboat.dir
 E:/Projects/showboat/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Projects/showboat/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/Projects/showboat/cmake-build-debug/CMakeFiles/Showboat_autogen.dir
