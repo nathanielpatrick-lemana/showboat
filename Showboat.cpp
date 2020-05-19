@@ -19,18 +19,16 @@ ShowboatMainWindow :: ShowboatMainWindow(QMainWindow *parent) //When starting th
         testLabelUI->setText("Failed to open the database. Does it exist or is the path correct?");
         QMessageBox::critical(this, tr("Showboat - Database Error"), tr("Failed to open the database. Does it exist or is the path correct?"));
     }
-
-    testLabelUI->setText("Successfully opened the database.");
-    QSqlQuery qry;
-    qry.prepare("select * from shows");
-
-    loadShowList();
+    else {
+        testLabelUI->setText("Successfully opened the database.");
+        loadShowList();
+    }
 
     QObject::connect(pushButton, SIGNAL(clicked()), this, SLOT(pushButtonClickedHandler()));
+    QObject::connect(pushButton_2, SIGNAL(clicked()), this, SLOT(on_pushButton_2_clicked()));
 }
 
 void ShowboatMainWindow::updateUI() { //Reload the show list after deleting or committing changes
-//    printf("Inside updateUI()\n");
     loadShowList();
 }
 
@@ -58,7 +56,6 @@ void ShowboatMainWindow::on_pushButton_2_clicked() //Delete entry from database 
 void ShowboatMainWindow::on_showListUI_activated(const QModelIndex &index) //Handling loading information into entry boxes upon loading from the list
 {
     QString val=showListUI->model()->data(index).toString();
-    connOpen();
 
     QSqlQuery qry;
     qry.prepare("select * from shows where Title='"+val+"';");
@@ -71,7 +68,6 @@ void ShowboatMainWindow::on_showListUI_activated(const QModelIndex &index) //Han
             episodesTotalUI->setValue(qry.value(2).toInt());
             ratingUI->setValue(qry.value(3).toDouble());
         }
-        connClose();
     }
     else {
         QMessageBox::critical(this, tr("Showboat - SQL Error"), qry.lastError().text(), qry.executedQuery());
