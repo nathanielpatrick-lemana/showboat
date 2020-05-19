@@ -27,7 +27,6 @@ private:
 public Q_SLOTS:
     void pushButtonClickedHandler();
     void on_pushButton_2_clicked();
-private slots:
     void on_showListUI_activated(const QModelIndex &index);
 };
 

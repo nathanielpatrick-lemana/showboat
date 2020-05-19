@@ -1,9 +1,9 @@
 QT += widgets sql
 requires(qtConfig(combobox))
 
-HEADERS     = Showboat.h
+HEADERS     = Showboat.h showClass.h
 SOURCES     = Showboat.cpp ShowboatGame.cpp \
-    sqlHandler.cpp
+    sqlHandler.cpp showClass.cpp
 FORMS       = ShowboatMainWindow.ui
 RESOURCES   = ShowboatResources.qrc
 
